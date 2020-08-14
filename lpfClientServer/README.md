@@ -5,7 +5,7 @@
 * client and server
 * program can run on many threads (specified in input)
 
-###Server:
+### Server:
 Served on 127.0.0.1:8000 listens for GET requests, responds with LPF answer and prints to the output:
 
     $ python server.py
@@ -17,7 +17,7 @@ Served on 127.0.0.1:8000 listens for GET requests, responds with LPF answer and 
     largest prime factor for 130 is 13.0
 
 
-###Client:
+### Client:
 Input:
 * **min-range, max range** - for randomizing input
 * **number of requests**
@@ -42,7 +42,7 @@ Output:
         Total elapsed time: 0:00:00.554456
         Program executed in: 0.18581199645996094
 
-###Installation:
+### Installation:
 Make virtual enviroment and install dependencies (pipenv is recommended):
 
     pipenv install --ignore-pipfile
